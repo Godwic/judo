@@ -1,0 +1,10 @@
+#menu_droite
+ {
+  float:right;
+  position: relative;
+  right: 0;
+  top: 100%;
+  width: 10em;
+  margin-top: -2.5em;
+  list-style:none;
+}
