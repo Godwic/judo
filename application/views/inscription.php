@@ -41,6 +41,13 @@
    
 </ul> 
 
+
+<?php
+
+	echo $user_info['email'];
+
+?>
+
     </div>
 	</br>
 	<div style="width: 900px ; margin-left: auto; margin-right:auto; padding: 16px 20px;background: #DDDDDD;border: 10px solid #0D0202; vertical-align : top; vertical-align : 20%; vertical-align : middle; border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;">
