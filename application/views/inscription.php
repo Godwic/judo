@@ -44,7 +44,7 @@
 
 <?php
 
-	echo $user_info['email'];
+	print_r($user_info);
 
 ?>
 

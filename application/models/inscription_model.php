@@ -4,9 +4,14 @@ class Inscription_model extends CI_Model
 {
 	public function get_info()
 	{
-		//	On simule l'envoi d'une requête
-		return array('inscrit' => 'Nassim',
-			     'date' => '28/03/16',
-		             'email' => 'mdr@prout.fr');
+
+		$SQL = "SELECT * FROM `inscrits`";
+
+		$query = $this->db->query($SQL);
+
+		return $query->result_array();
+		
 	}
+
+
 }
